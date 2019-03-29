@@ -1,23 +1,24 @@
-//  TO USE GOOGLE FONTS FOR SITE:
+//  Sass Variables
 //==============================================
-//fall back font stack for site
-$basefont-stack: 'Open Sans', sans-serif;
-$base-font-size: 1em;
-$base-font-weight: 400;
-$base-font-weigth-bold: 600;
-//secondary font stack for site
-$secondaryfont-stack: 'Roboto', sans-serif;
-$secondaryfont-weight-regular: 400;
-$secondaryfont-weight-boldish: 500;
-$secondaryfont-weight-bold: 700;
-$secondaryfont-weight-black: 900;
+$font-family-content: 'Open Sans', sans-serif;
+$font-family-name: 'Miriam Libre', sans-serif;
+$font-family-code: 'Ubuntu Mono', monospace;
 
-$powerfont-family: 'Libre Franklin', sans-serif;
-$powerfont-weight-light: 300;
-$powerfont-weight-bold: 700;
+$font-weight-regular: 400;
+$font-weight-bold: 700;
+
+$font-size-two: 2em;
+$font-size-three: 3em;
+$font-size-four: 4em;
 
 //Image path for most of global style sheet
 $imagedir:'/assets/img/';
+
+// Colors:
+$color-blue-dark-grey: #212529;
+
+// Color assignments:
+$color-nav-backgroud: $color-blue-dark-grey;
 
 //KCC colors
 $primary-blue: #0f3b63;       // Primary red-color
