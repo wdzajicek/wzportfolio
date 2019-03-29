@@ -1,0 +1,26 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+  <!-- Meta -->
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>{{site.title}} - {{page.title}}</title>
+  <meta name="description" content="{{page.description}}">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- A link to the manifest.json file -->
+  <!--  TODO: fix broken icon links in it:
+  <link rel="manifest" href="/manifest.json">
+  -->
+  <!-- TODO:
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Standard Favicon -->
+  <link rel="icon" type="image/x-icon" href="{{page.baseurl}}wz.ico" />
+  <!-- Vendor stylesheets -->
+  {%- include styles/vendor-cdn.html -%}
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="{{page.baseurl}}assets/css/main.css{% if site.data.cache_bust_css %}?version={{ site.data.cache_bust_css | truncate: 32, '' }}{% endif %}">
+</head>
+
+<body>

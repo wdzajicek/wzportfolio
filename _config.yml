@@ -1,0 +1,39 @@
+title: "Wesley Zajicek"
+public-url: "https://wesleyzajicek.com"
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+    title: ''
+    permalink: /:categories/:title/
+    baseurl: ../../../
+    categories: news
+permalink: pretty
+email: your-email@domain.com
+description: > # this means to ignore newlines until "baseurl:"
+# Delete this comment and place description on this line
+baseurl: "" # the subpath of your site, e.g. /blog
+# include:
+#   - "_pages"
+#   - "_posts"
+
+# include future posts? (true or false)
+future: true
+# Build settings
+markdown: kramdown
+
+exclude:
+  - "gulpfile.js"
+  - "node_modules"
+  - "npm-debug.log"
+  - "package.json"
+  - "package-lock.json"
+  - "README.md"
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "gulpconfig.yml"
+  - "/docs/"
+  - "yarn.lock"
+  - "/assets/adobe/"
