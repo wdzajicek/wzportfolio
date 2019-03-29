@@ -1,20 +1,10 @@
-# KCC Startup Template
+# Portfolio Site
 
 #### Jekyll + Webpack + Babel + Gulp + Sass + Autoprefixer + imagemin + BrowserSync + ...
-
-***A startup repo for creating new websites in the KCC website redesign project***
 
 ---
 
 <br>
-
-The Development of new KCC website is based off of designer's mockups and uses open source technologies.
-
-**This site uses KCC's own gem-based jekyll-theme--developed in-house!**
-
-You can find the kcc-gem-theme at https://rubygems.org/gems/kcc-gem-theme and on GitHub at https://github.com/KankakeeCommunityCollege/kcc-gem-theme/
-
-[![Gem Version](https://badge.fury.io/rb/kcc-gem-theme.svg)](https://badge.fury.io/rb/kcc-gem-theme)
 
 ***This README assumes you are using a modern macOS system***
 
@@ -47,7 +37,8 @@ $ npm install --global gulp-cli # mac users may need sudo
 ## Installation
 
 ```shell
-$ git clone https://github.com/KankakeeCommunityCollege/kcc-startup-template.git <project name>
+$ git clone https://github.com/wdzajicek/wzportfolio.git <project name>
+# ssh clone use: git@github.com:wdzajicek/wzportfolio.git
 $ cd <project name>
 $ sh install.sh # install.sh runs bundle & npm installs, among a few other things.
 ```
@@ -105,9 +96,3 @@ Production build minifies CSS and JavaScript and compresses image files.
 ---
 
 <br>
-
-## The [kcc-gem-theme](https://rubygems.org/gems/kcc-gem-theme)
-
-You will notice this GitHub repo has nothing in it's `_layouts/` dir and no `assets/img/` dir. Yet, when you build the project, images are there and it obviously has a layout. That's thanks to KCC's gem-based jekyll-theme.
-
-Having a theme gem allows us to make changes (to the shared theme elements) across multiple sites, in one place.
