@@ -14,7 +14,6 @@
 @import '2-modules/footer';
 @import '2-modules/sliders';
 @import '2-modules/social-icons';
-@import '2-modules/footer';
 
 // Layout items
 // @import "3-layout/...";
@@ -25,6 +24,3 @@
 // Page specific styling
 // @import "4-pages/...";
 @import '4-pages/index/home';
-
-// Internet Exploder fixes
-@import '0-tools/ie-only';

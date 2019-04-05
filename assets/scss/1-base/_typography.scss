@@ -1,7 +1,11 @@
 // Typography styles
 // ======================================
 
+body {
+  font-size: $font-size-base;
+}
+
 .typography__name {
   font-family: $font-family-name;
-  font-size: $font-size-four;
+  font-size: $font-size-five;
 }

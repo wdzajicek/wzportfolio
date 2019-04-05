@@ -1,5 +1,19 @@
+// Navigation Bar styles
+// ======================================
 
 .nav__bg-color {
   background-color: $color-nav-backgroud;
   opacity: .95;
+}
+
+.nav__avatar {
+  height: 50px;
+  margin-left: 20px;
+  position: absolute;
+  transform: scale(1.75,1.75);
+  width: 50px;
+}
+
+.nav__clear-avatar {
+  margin-left: 80px;
 }
